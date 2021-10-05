@@ -151,7 +151,7 @@
 .vaccine-taking-container-step {
   width: 75%;
   margin: 2rem auto;
-  padding: 2rem ;
+  padding: 2rem;
   box-shadow: 1px 6px 5px 0px rgba(168, 141, 141, 0.75);
 }
 
@@ -173,19 +173,35 @@
   text-align: center;
   padding: 1.5rem;
 }
-.vaccine-steps p:first-of-type{
+.vaccine-steps p:first-of-type {
   margin: 1rem 0;
   font-weight: bold;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
-.vaccine-steps p:last-of-type{
-  font-size: .9rem;
+.vaccine-steps p:last-of-type {
+  font-size: 0.9rem;
   line-height: 1.5rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
-/* responsive */
+.two-order {
+  width: 60%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.two-order p {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+/* responsive making*/
+/* responsive making*/
+/* responsive making*/
+/* responsive making*/
+
 @media screen and (max-width: 768px) {
   /* first part */
   .coupled-banner {
@@ -222,5 +238,12 @@
 
   .vaccine-taking-steps {
     flex-direction: column;
+  }
+
+  .two-order {
+    flex-direction: column;
+  }
+  .two-order img {
+    margin-top: 1rem;
   }
 }
