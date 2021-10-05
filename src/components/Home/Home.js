@@ -14,7 +14,6 @@ import step03 from "../../images/step 03.png";
 import googlePlay from "../../images/googlePlay.png";
 import appleStore from "../../images/googlePlay.png";
 import mujib100 from "../../images/googlePlay.png";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
