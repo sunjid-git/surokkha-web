@@ -8,6 +8,9 @@ import regularQuestion from "../../images/regular-question.png";
 import peoples from "../../images/peoples.png";
 import step from "../../images/step.png";
 import call from "../../images/call.png";
+import step01 from "../../images/step 01.png";
+import step02 from "../../images/step 02.png";
+import step03 from "../../images/step 03.png";
 
 
 const Home = () => {
@@ -81,6 +84,35 @@ const Home = () => {
         </div>
 
     </section>
+
+    {/* vaccine taking steps */}
+    <div className="vaccine-taking-container-step">
+        <h2>কোভিড-১৯ করোনা ভ্যাকসিন গ্রহণের প্রক্রিয়া</h2>
+
+        <div className="vaccine-taking-steps">
+            <div className="vaccine-steps">
+                <img src={step01} alt="" />
+                <p>অনলাইনে নিবন্ধন</p>
+                <p>প্রথমে এই পোর্টালের মাধ্যমে জাতীয় পরিচয়পত্র ও সঠিক মোবাইল নম্বর যাচাইপূর্বক অনলাইনে নিবন্ধন সম্পন্ন করবেন।</p>
+            </div>
+
+            <div className="vaccine-steps">
+                <img src={step02} alt="" />
+                <p>SMS নোটিফিকেশন</p>
+                <p>অনলাইনে নিবন্ধন পরবর্তী তথ্য যাচাইপূর্বক পর্যায়ক্রমে টিকা প্রদানের তারিখ ও কেন্দ্রের নাম উল্লেখপূর্বক মুঠোফোনে খুদেবার্তা পাবেন।</p>
+            </div>
+
+            <div className="vaccine-steps">
+                <img src={step03} alt="" />
+                <p>টিকা কেন্দ্রে টিকা গ্রহণ</p>
+                <p>মুঠোফোনে খুদেবার্তা প্রাপ্তি সাপেক্ষে টিকাকার্ড জাতীয় পরিচয়পত্র ও সম্মতিপত্রসহ নির্দিষ্ট তারিখে টিকাদান কেন্দ্রে স্ব-শরীরে উপস্থিত হয়ে কোভিড-১৯ টিকা গ্রহণ করবেন।</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    
 
 
     </div>
