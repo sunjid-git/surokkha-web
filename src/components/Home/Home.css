@@ -152,7 +152,8 @@
   width: 75%;
   margin: 2rem auto;
   padding: 2rem;
-  box-shadow: 1px 6px 5px 0px rgba(168, 141, 141, 0.75);
+  box-shadow: 1px 6px 5px 0px rgba(211, 201, 201, 0.75);
+  border-radius: 10px;
 }
 
 .vaccine-taking-container-step h2 {

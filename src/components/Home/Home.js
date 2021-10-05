@@ -12,6 +12,9 @@ import step01 from "../../images/step 01.png";
 import step02 from "../../images/step 02.png";
 import step03 from "../../images/step 03.png";
 import googlePlay from "../../images/googlePlay.png";
+import appleStore from "../../images/googlePlay.png";
+import mujib100 from "../../images/googlePlay.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -119,12 +122,31 @@ const Home = () => {
       {/* অ্যাপ ডাউনলোড করুন */}
 
       <div className="two-order">
-          <p>অ্যাপ ডাউনলোড করুন</p>
-          <img src={googlePlay} alt="" />
+        <p>অ্যাপ ডাউনলোড করুন</p>
+        <img src={googlePlay} alt="" />
       </div>
 
+      {/* mujib 100 */}
+      <div className="vaccine-taking-container-step">
+        <h2>মুজিব ১০০</h2>
 
+        <div className="vaccine-taking-steps">
+          <div className="vaccine-steps">
+            <img src={mujib100} alt="" />
+            <p className="mujib">মুজিব ১০০ পোর্টাল</p>
+          </div>
 
+          <div className="vaccine-steps">
+            <img src={googlePlay} alt="" />
+            <p>মুজিব ১০০ অ্যান্ড্রয়েড অ্যাপ</p>
+          </div>
+
+          <div className="vaccine-steps">
+            <img src={appleStore} alt="" />
+            <p>মুজিব ১০০ আইওএস অ্যাপ</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
