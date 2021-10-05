@@ -12,16 +12,16 @@ const Header = () => {
         </Link>
 
         <div className="nav-links">
-          <Link to="/">হোম</Link>
-          <Link to="/">নিবন্ধন</Link>
-          <Link to="/">নিবন্ধন (পাসপোর্ট)</Link>
-          <Link to="/">নিবন্ধন স্ট্যাটাস</Link>
-          <Link to="/">টিকা কার্ড</Link>
-          <Link to="/">টিকা সনদ</Link>
-          <Link to="/">টিকা সনদ যাচাই</Link>
-          <Link to="/">সহায়িকা</Link>
-          <Link to="/">জিজ্ঞাসা</Link>
-          <Link to="/login" className="login-button">
+          <Link to="/home">হোম</Link>
+          <Link to="/enroll">নিবন্ধন</Link>
+          <Link to="/foreigner-enroll">নিবন্ধন (পাসপোর্ট)</Link>
+          <Link to="/vaccine-status">নিবন্ধন স্ট্যাটাস</Link>
+          <Link to="/vaccine-card">টিকা কার্ড</Link>
+          <Link to="/certificate">টিকা সনদ</Link>
+          <Link to="/verify">টিকা সনদ যাচাই</Link>
+          <Link to="/help">সহায়িকা</Link>
+          <Link to="/faq">জিজ্ঞাসা</Link>
+          <Link to="/login" className="english-button">
             English{" "}
           </Link>
         </div>
