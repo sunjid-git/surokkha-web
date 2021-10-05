@@ -24,7 +24,12 @@ header {
   margin: 0 0.6rem;
   padding: 5vh 0;
   position: relative;
+  color: var(--navy-dark);
+  
 }
+
+
+
 
 .nav-links a:not(:last-child)::after {
   content: "";
@@ -39,6 +44,7 @@ header {
 
 .nav-links a:hover::after {
   width: 100%;
+  color: car(--navy-bluer);
 }
 
 .english-button {

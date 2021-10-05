@@ -4,25 +4,3 @@
   box-sizing: border-box;
 }
 
-:root{
-  --navy-blue: #0A2F8D;
-  --navy-blue: #00113E;
-  --navy-dark: #212529;
-  --orange-blue: #FF4300;
-  --orange-light: #FF483C;
-  --orange-lighter: #F26D3E;
-  --whitish: #F9FBFF;
-
-  --green: #0D7B2C;
-  --green-hover: #DFFFDA;
-
-  --green-light: #25BE88;
-  --green-light: #DAFFF2;
-
-  --green-lighter: #5FC6CC;
-  --green-lighter-hover: #DAFDFF;
-
-  --lemon-light: #D8DE00;
-  --lemon-light-hover: #FEFFDA;
-  
-}
