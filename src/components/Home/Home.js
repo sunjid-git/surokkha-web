@@ -19,6 +19,7 @@ const Home = () => {
   return (
     <div className="main-home-container">
       {/* first bannner part */}
+      
       <div className="coupled-banner">
         <div className="banner-reg-container-left">
           <div className="banner-reg-left">
@@ -33,6 +34,7 @@ const Home = () => {
             <img src={step} alt="" />
           </div>
         </div>
+
 
         <div className="banner-reg-container-right">
           <div>

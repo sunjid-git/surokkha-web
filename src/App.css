@@ -4,3 +4,14 @@
   box-sizing: border-box;
 }
 
+:root{
+  --navy-blue: #0A2F8D;
+  --navy-bluer: #00113E;
+  --navy-dark: #212529;
+  --orange-blue: #FF4300;
+  --orange-light: #FF483C;
+  --orange-lighter: #F26D3E;
+  --whitish: #F9FBFF;
+
+  
+}
