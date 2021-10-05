@@ -7,17 +7,23 @@ const Header = () => {
   return (
     <header>
       <div className="nav-elements">
-
         <Link to="/" className="header-title">
-            <img src={logo} alt="" />
+          <img src={logo} alt="" />
         </Link>
 
         <div className="nav-links">
-          <Link to="/">Home</Link>
-          <Link to="/productHome">Products</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/login">Login </Link>
-          <Link to="/login" className="login-button">Login </Link>
+          <Link to="/">হোম</Link>
+          <Link to="/">নিবন্ধন</Link>
+          <Link to="/">নিবন্ধন (পাসপোর্ট)</Link>
+          <Link to="/">নিবন্ধন স্ট্যাটাস</Link>
+          <Link to="/">টিকা কার্ড</Link>
+          <Link to="/">টিকা সনদ</Link>
+          <Link to="/">টিকা সনদ যাচাই</Link>
+          <Link to="/">সহায়িকা</Link>
+          <Link to="/">জিজ্ঞাসা</Link>
+          <Link to="/login" className="login-button">
+            English{" "}
+          </Link>
         </div>
       </div>
     </header>

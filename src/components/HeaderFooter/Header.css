@@ -22,8 +22,8 @@ header {
   }
   .nav-links a {
     text-decoration: none;
-    font-size: 1.3rem;
-    margin: 0 1.2rem;
+    font-size: .9rem;
+    margin: 0 .8rem;
  
     position: relative;
   }
@@ -65,7 +65,7 @@ header {
   
     .nav-links a::after {
       content: "";
-      top: 1.5rem;
+      top: 1rem;
       left: 0;
       height: 6px;
       width: 0;
@@ -76,5 +76,10 @@ header {
   }
 .login-button{
     color:white;
+    padding: .5rem;
+    border-radius: .3rem;
+    font-size: .8rem;
+    font-weight: bolder;
+    font-family: "Roboto";
     background-color:#F26D3E ;
 }  
