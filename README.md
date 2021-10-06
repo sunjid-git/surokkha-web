@@ -1,4 +1,4 @@
-### `surokkha-web`
+# `surokkha-web`
 
 # [surokkha-web - LIVE](https://surokkha-web.netlify.app/)
 
@@ -17,7 +17,7 @@
 ### `I have used - `
 1. React.js
 2. React Router DOM
-3. Pure CSS
+3. Grid Layout + FlexBox Layout
 
 
 ## `Surokkha-gov-bd | Previously Designed with pure HTML+CSS`
