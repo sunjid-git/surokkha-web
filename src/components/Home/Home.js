@@ -5,6 +5,7 @@ import checkmark from "../../images/checkmark.png";
 import card from "../../images/card.png";
 import sonod from "../../images/sonod.png";
 import regularQuestion from "../../images/regular-question.png";
+
 import peoples from "../../images/peoples.png";
 import step from "../../images/step.png";
 import call from "../../images/call.png";
