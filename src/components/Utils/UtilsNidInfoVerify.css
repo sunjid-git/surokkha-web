@@ -14,8 +14,8 @@ margin-bottom: 3rem;
   }
 .nid input{
     width: 20rem;  
-    margin-top: .5rem;
-    padding: .5rem 3rem;
+    /* margin-top: .5rem; */
+    padding: 1rem 3rem;
     border-radius: 10px;
     outline: none;
     border:1px solid gray;

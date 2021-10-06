@@ -1,5 +1,6 @@
 import React from "react";
 import people from "../../images/people.png";
+import UtilsNidInfoVerify from "../Utils/UtilsNidInfoVerify";
 const ForeignerEnroll = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const ForeignerEnroll = () => {
           করুন। পরবর্তীতে মোবাইল ফোনে এসএমএস বার্তার মাধ্যমে ভ্যাকসিন প্রদানের
           স্থান ও তারিখ পর্যায়ক্রমে নির্দিষ্ট সময়ে জানানো হবে।
         </p>
+        <UtilsNidInfoVerify/>
       </div>
     </>
   );
