@@ -6,30 +6,30 @@ import Header from "./components/HeaderFooter/Header";
 import Footer from "./components/HeaderFooter/Footer";
 import Help from "./components/Help/Help";
 import FAQ from "./components/FAQ/FAQ";
+import Enroll from "./components/Enroll/Enroll";
+import ForeignerEnroll from "./components/ForeignerEnroll/ForeignerEnroll";
+import VaccineStatus from "./components/VaccineStatus/VaccineStatus";
+import Certificate from "./components/Certificate/Certificate";
+import Verify from "./components/Verify/Verify";
+import VaccineCard from "./components/VaccineCard/VaccineCard";
 
 function App() {
   return (
     <Router>
-    <Header/>
+      <Header />
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-
-        <Route path="/home">
-          <Home />
-        </Route>
-
-        <Route path="/help">
-          <Help />
-        </Route>
-
-        <Route path="/faq">
-          <FAQ />
-        </Route>
-
+        <Route exact path="/" component={Home} />
+        <Route path="/home" component={Home} />
+        <Route path="/enroll" component={Enroll} />
+        <Route path="/foreigner-enroll" component={ForeignerEnroll} />
+        <Route path="/vaccine-status" component={VaccineStatus} />
+        <Route path="/vaccine-card" component={VaccineCard} />
+        <Route path="/certificate" component={Certificate} />
+        <Route path="/verify" component={Verify} />
+        <Route path="/help" component={Help} />
+        <Route path="/faq" component={FAQ} />
       </Switch>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }

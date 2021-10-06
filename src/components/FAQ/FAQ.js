@@ -4,10 +4,11 @@ import question from "../../images/question.png";
 const FAQ = () => {
   return (
     <>
-        <div class="faq-header">
+        <div class="sub-header faq">
           <p>টিকা বিষয়ক সচরাচর জিজ্ঞাসা</p>
           <img src={question} alt="" />
         </div>
+
       <div className="faq-container">
 
         <p class="enroll-text">
@@ -17,7 +18,7 @@ const FAQ = () => {
           প্রশ্ন ও উত্তর নিচের অংশে পাওয়া যাবে।
         </p>
 
-        <section class="faq">
+        <section class="faq-list">
           <h3>কোভিড-১৯ ভ্যাকসিন বিষয়ক সচরাচর জিজ্ঞাসা</h3>
 
           <ul>

@@ -1,17 +1,61 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root{
-  --navy-blue: #0A2F8D;
-  --navy-bluer: #00113E;
+:root {
+  --navy-blue: #0a2f8d;
+  --navy-bluer: #00113e;
   --navy-dark: #212529;
-  --orange-blue: #FF4300;
-  --orange-light: #FF483C;
-  --orange-lighter: #F26D3E;
-  --whitish: #F9FBFF;
+  --orange-blue: #ff4300;
+  --orange-light: #ff483c;
+  --orange-lighter: #f26d3e;
+  --whitish: #f9fbff;
+}
 
-  
+/* extra header work */
+
+.sub-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #00113e;
+}
+.sub-header img {
+  height: 10rem;
+}
+.sub-header p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.help,
+.faq {
+  background: #dafff6;
+}
+.verify {
+  background: #dafff2;
+}
+
+.enroll,
+.foreigner-enroll {
+  background: #ebf0ff;
+}
+
+.vaccine-status {
+  background: #dfffda;
+}
+.vaccine-card {
+  background: #feffda;
+}
+
+@media screen and (max-width: 928px) {
+  .sub-header {
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem;
+  }
 }
