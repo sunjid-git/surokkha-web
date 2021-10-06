@@ -1,0 +1,28 @@
+.profession-category {
+  display: flex;
+  flex-direction: row;
+}
+
+.category-main {
+  flex: 1.5;
+}
+.category-sub {
+  flex: 2.5;
+}
+
+.category-main select,
+.category-sub select{
+  margin: 1.5rem 0;
+  padding: 0.7rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+
+@media screen and (max-width: 928px){
+  .profession-category {
+    display: flex;
+    flex-direction: column;
+  }
+}

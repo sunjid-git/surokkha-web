@@ -1,6 +1,6 @@
 ### `surokkha-web`
 
-# [surokkha-web - LIVE](https://surokkha-gov-bd.netlify.app/)
+# [surokkha-web - LIVE](https://surokkha-web.netlify.app/)
 
 
 ## `Functionality`
