@@ -1,0 +1,110 @@
+.utils-nid-info{
+margin-bottom: 3rem;
+}
+.verify-information {
+  display: flex;
+  flex-direction: row;
+}
+.nid {
+  flex: 1.5;
+  margin: 1rem 0;
+}
+.birth-details {
+    flex: 2.5;
+  }
+.nid input{
+    width: 20rem;  
+    margin-top: .5rem;
+    padding: .5rem 3rem;
+    border-radius: 10px;
+    outline: none;
+    border:1px solid gray;
+}
+
+
+.birth-details select{
+    margin: 1rem 0;
+    padding: .7rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-right: 1rem;
+    
+}
+
+
+/* vaccine certificate */
+.vaccine-certificate{
+    margin: auto 0; 
+}
+
+
+/* captcha */
+.captcha{
+    margin: 1.5rem 0; 
+}
+.random-captcha-part{
+    border: 1px solid rgb(97, 82, 82);
+    height: 7rem;
+    width: 20rem;    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.random-captcha{
+    text-align: center;
+    background: #F3F9FF;
+    font-size: 1.5rem;
+    color: rgb(44, 44, 68);
+}
+.random-captcha-part p{
+    font-size: .7rem;
+    margin-left: .3rem;
+    margin-top: 3px;
+}
+.random-captcha-part input{
+    margin: 5px;
+    border-radius: 10px;
+    height: 2.5rem;
+    background: #F3F9FF;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.random-captcha-text-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 1rem;
+    border-bottom: 1px solid rgb(177, 188, 190);
+
+}
+
+.random-captcha-part div{
+    background: #F3F9FF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.captcha-btn{
+    margin-top: 1.5rem;
+    width: 20rem;
+    padding: .6rem;
+    background:none;
+    border: none;
+    border-radius: 10px;
+    color: #F3F9FF;
+    font-weight: bold;
+    background-color: rgb(204, 204, 204);
+    
+}
+
+
+@media screen and (max-width: 928px) {
+  .verify-information {
+    flex-direction: column;
+  }
+
+  .birth-details select{
+    width: 20rem;
+}
+}

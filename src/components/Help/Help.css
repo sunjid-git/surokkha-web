@@ -93,4 +93,14 @@
     background-color: #fff3e1;
     padding: 2.5rem 1.5rem;
   }
+
+  .help-others {
+    width: 70%;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
 }
