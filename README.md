@@ -19,7 +19,6 @@
 2. React Router DOM
 3. Grid Layout + FlexBox Layout
 
-
 ## `Surokkha-gov-bd | Previously Designed with pure HTML+CSS`
 [GitHub](https://github.com/sunjid-git/covid-19-vaccine-website) | 
 [LIVE](https://0zr7cfqfmwk1zfncafdgig-on.drv.tw/Websites/www.surokkha-website.com/html/home.html)
