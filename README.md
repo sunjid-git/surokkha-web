@@ -14,7 +14,7 @@
 8. সহায়িকা
 9. জিজ্ঞাসা
 
-### `I have used - `
+### `I have used -`
 1. React.js
 2. React Router DOM
 3. Grid Layout + FlexBox Layout
