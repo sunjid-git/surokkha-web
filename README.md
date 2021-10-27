@@ -2,7 +2,6 @@
 
 # [surokkha-web - LIVE](https://surokkha-web.netlify.app/)
 
-
 ## `Functionality`
 1. হোম
 2. নিবন্ধন
